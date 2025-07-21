@@ -1,0 +1,30 @@
+html {
+    font-family: "Roboto";
+}
+
+header,
+footer {
+    background-color: #1f2937;
+    color:white;
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items:center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display:flex;
+    gap: 15px;
+}
+
+img {
+    font-weight: bold;
+}
