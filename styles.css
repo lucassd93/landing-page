@@ -1,23 +1,29 @@
 html {
-    font-family: "Roboto";
+    font-family: Roboto;
 }
 
 header,
 footer {
     background-color: #1f2937;
-    color:white;
+    color:#F9FAF8;
+    height: 100px;
 }
 
 header {
     display:flex;
     justify-content: space-around;
-    height: 50px;
     align-items:center;
+}
+
+footer {
+    display:flex;
+    place-content:center;
 }
 
 header a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 .links {
@@ -27,4 +33,50 @@ header a {
 
 img {
     font-weight: bold;
+    font-size: 24px;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.hero {
+    display:flex;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    color:#F9FAF8;
+}
+
+.left {
+    display:flex;
+    flex-direction: column;
+    column-gap: 5px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+p {
+    max-width: 400px;
+    font-size:18px;
+}
+
+button {
+    background-color: #3882F6;
+    text-align: center;
+    color:#F9FAF8;
+    border-radius: 10px;
+    width: 100px;
+    border: 1px #1f2937 solid;
+    padding: 5px;
+}
+
+.hero img {
+    align-self: center;
 }
