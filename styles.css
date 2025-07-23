@@ -46,6 +46,7 @@ body {
     background-color: #1f2937;
     justify-content: space-evenly;
     color:#F9FAF8;
+    padding-bottom: 10s0px;
 }
 
 .left {
@@ -112,4 +113,33 @@ button {
     width: 100px;
     height: 100px;
     border-radius: 10px;
+}
+
+.phrase {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote-thor {
+    display: flex;
+    flex-direction: column;
+}
+
+.phrase .quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0;
+    min-width: 700px;
+}
+
+.phrase .Thor {
+    font-weight: bold;
+    align-self: flex-end;
 }
