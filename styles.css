@@ -80,3 +80,36 @@ button {
 .hero img {
     align-self: center;
 }
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.images {
+    display:flex;
+    column-gap: 35px;
+    padding-bottom: 50px;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.img1 p {
+    font-size: 12px;
+    width: 100px;
+}
+
+.img1 img {
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
